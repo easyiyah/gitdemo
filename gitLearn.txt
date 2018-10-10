@@ -1,0 +1,37 @@
+1:下载git
+2：安装 无脑下一步
+3：在项目文件夹下右击 git bash here
+4：登录官网，获取ssh-keygen 在C盘用户 电脑名文件夹下.ssh文件夹下 
+id_rsa.pub内有公钥 复制粘贴到官网 
+依次单击右上角头像->settings ->ssh 绿色按钮：new ssh key
+5：本地环境配置：
+git config --global user.name xxx
+git config --global user.email @.com
+本地分支与远程分支建立关联
+git remote add origin yougithub
+问题---------------
+1.git与github/码云（中国github）区别：
+git:是一种协议，是客户端和服务端（github/码云/公司自己的代码库）
+客户端可以对应多个仓库。
+可以用https或者ssh方式访问，推荐https访问
+git clone 网址
+2.git如何学好
+好奇，学会提问，了解背景
+3.git版本管理工具，每个版本修改/提交内容
+版本回退：多人协作
+4.git背景：根据时空论设计 git中国创始人
+不同时间点，状态不一样（三围空间+一围时间）
+从b时刻回退到a时刻，就是a时刻的三位空间
+不同分支branch（旧需求继续+新需求结着旧需求写）--本地仓库
+5.git与svn最大的区别：
+git=6围 svn=5围
+不同的人有不同的本地仓库，构成6维
+remote：远程
+repository：本地仓库
+workspace：工作区（开发ide里）
+git是两个半阶段的提交
+add：创建文件之后要git add
+commit：每写完一段要commit
+push：每天结束push
+pull:每次push之前要pull//判断别人push后的内容是否有代码冲突
+
