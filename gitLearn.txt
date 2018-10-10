@@ -2,6 +2,7 @@
 2：安装 无脑下一步
 3：在项目文件夹下右击 git bash here
 4：登录官网，获取ssh-keygen 在C盘用户 电脑名文件夹下.ssh文件夹下 
+新建projects后，有该项目网址
 id_rsa.pub内有公钥 复制粘贴到官网 
 依次单击右上角头像->settings ->ssh 绿色按钮：new ssh key
 5：本地环境配置：
