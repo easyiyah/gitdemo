@@ -30,8 +30,15 @@ remote：远程
 repository：本地仓库
 workspace：工作区（开发ide里）
 git是两个半阶段的提交
-add：创建文件之后要git add
+add：创建文件之后要git add 到缓冲区内（index）
 commit：每写完一段要commit
 push：每天结束push
-pull:每次push之前要pull//判断别人push后的内容是否有代码冲突
+pull:每次push之前要pull
+//判断别人push后的内容是否有代码冲突
+//每天开始搬砖时候最好pull
+例子：
+$ git add gitLearn.txt
+$ git commit -m 'learn git'
+  git checkout -b test1//创建分支 对txt更改
+
 
